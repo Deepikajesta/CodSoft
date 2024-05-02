@@ -1,0 +1,25 @@
+   <!--   <div class="work">
+                <img src="./5242980.jpg"/>
+                <div class="layer">
+                    <h3>Expense Tracker</h3>
+                    <p>Efficiently manage your finances with our Expense Tracker project developed using HTML, CSS, and JavaScript. This user-friendly web application allows you to easily input, categorize, and track your expenses, providing a clear visual overview of your spending habits.</p>
+                    <a href="https://kalyanamganesh.github.io/ExpenseTracker-GK/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work hide" >
+                <img src="./6592321.jpg"/>
+                <div class="layer">
+                    <h3>Video Player</h3>
+                    <p>Elevate your multimedia experience with our user-friendly video player app, delivering seamless playback and customizable features at your fingertips.</p>
+                    <a href="https://kalyanamganesh.github.io/VideoPlayer/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work hide">
+                <img src="./4905798.jpg"/>
+                <div class="layer">
+                    <h3>ToDo</h3>
+                    <p>Stay organized and boost productivity with our intuitive to-do app, simplifying task management for a more efficient and stress-free day.</p>
+                    <a href="https://kalyanamganesh.github.io/To-Do-App/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div
+        </div>-->
