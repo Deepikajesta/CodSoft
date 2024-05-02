@@ -1,0 +1,157 @@
+<html>
+    <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width",intial-scale="1.8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table{
+            width:100%;
+        }
+        body{
+            color:white;
+            padding:0px 50px;
+            font-family: "Ojuju", serif;
+            background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        p{
+            font-size: 25px;
+            line-height: 35px;
+        }
+        .projectimage{
+            width:300px;
+        }
+        h2{
+            text-align: center;
+        }
+        .formsection{
+            margin: 0 38%;
+        }
+        input,textarea{
+            width:300px;
+            background-color: #fff;
+            border-radius: 20px;
+            padding:10px;
+        }
+        .aboutimage{
+            border-radius: 100%;
+            border:2px solid #fff;
+        }
+        .contactheading{
+            color:#fff;
+        }
+        button{
+            margin-top:15px;
+            padding:10px;
+            border-radius: 20px;
+            width:130px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .buttonarea{
+            margin:0px 90px;
+        }
+        .fa{
+            color: #fff;
+            font-size: 25px;
+            margin:20px;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+    </style>
+    </head>
+    <body>
+ <!--Header-->
+     <table>
+    <tr>
+        <td><h1>Portfolio</h1></td>
+        <td><a href="#aboutsection">About</a></td>
+        <td><a href="#projectsection">Projects</a></td>
+        <td><a href="#contactsection">Contact</a></td>
+        <td><a href="#footersection">Footer</a></td>
+    </tr>
+     </table>
+     <!--About-->
+     <div id="aboutsection">
+     <table>
+        <tr>
+            <td><h2>About me,</h2>
+            <p>
+               I am Jesta Deepika, a passionate student of computer science. Currently pursuing my studies in this dynamic field, I am driven by a curiosity for technology and a desire to innovate.
+                Throughout my academic journey, I have embraced challenges and opportunities to expand my knowledge and skills in computer science. From programming languages to algorithms, I am continuously exploring and learning to become a proficient computer scientist.
+                Beyond my studies, I enjoy immersing myself in coding projects and exploring the latest developments in the tech industry. I am enthusiastic about the endless possibilities that computer science offers and am excited to contribute to its advancements.  
+                Outside of the world of bits and bytes, I enjoy exploring creative outlets that provide balance and inspiration in my life. </p></td>
+            <td><img class="aboutimage" src="/home/rguktongole/Pictures/O190287.jpg" width="290px"/></td>
+        </tr>
+     </table>
+    </div>
+     <!--Projects-->
+     <div id="projectsection">
+     <h2>Projects</h2>
+     <table>
+            <tr>
+            <td align="center"><img
+                class="projectimage"
+                 src="pic2.jpeg"/></td>
+            <td align="center"><img 
+                class="projectimage"
+                src="pic1.jpg"/></td>
+            <td  align="center"><img          
+                 class="projectimage"
+                src="shop.jpg"/></td>
+        </tr>
+        <tr>
+            <td  align="center"><img 
+                class="projectimage"
+                src="gro.jpeg"/></td>
+            <td align="center"><img 
+                class="projectimage"
+                src="elec5.jpeg"/></td>
+            <td align="center"><img 
+                class="projectimage"
+                src="pic3.jpeg"/></td>
+        </tr>
+    </table>
+    </div>
+<!--contact-->
+<div id="contactsection">
+       <h2>Contact</h2>
+       <div class="formsection">
+        <form class="contactheading">
+         <label>Name</label><br/>
+         <input type="text" placeholder="Enter your name"/>
+         <br/>
+         <br/>
+         <label>Email</label><br/>
+         <input type="text" placeholder="Enter your email"/>
+         <br/>
+         <br/>
+         <label>Contact</label><br />
+         <input type="text" placeholder="Enter your contact number"/>
+         <br />
+         <br />
+         <label>Message</label><br/>
+         <textarea rows="6"></textarea>
+         <div class="buttonarea">
+            <button>Submit</button>
+         </div>
+        </form>
+       </div>
+    </div>
+    <!--footer-->
+    <div align="center" id="footersection">
+    <a href src="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+    <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+    <a href="#"><i class="fa fa-youtube-play"></i></a>
+</div>
+    </body>
+</html>
